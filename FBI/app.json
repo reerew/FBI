@@ -1,0 +1,40 @@
+{
+    "name": "FBI",
+    "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
+    "logo" : "https://graph.org/file/6b8bdae279ebdca5bfb8d.png",
+    "stack": "container",
+    "repository": "https://github.com",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
+    }
+}
